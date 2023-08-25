@@ -1,0 +1,219 @@
+@media only screen and (max-width:1025px) {
+    nav .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--textColor);
+        width: 100%;
+        height: 100%;
+        /* display: flex!important; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        /* transition: transform .3s; */
+        z-index: 1000;
+        display: none;        
+    }
+    .closelist{
+        display: unset;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        font-size: 1.3rem;
+    }
+    nav .menu li a{
+        color: white;
+        font-size: 1.2rem;
+    }
+    nav .menu li.active a{
+        color: whitesmoke;
+    }
+
+
+    .nav .logo{
+        width: 40%;
+    }
+    nav .menu-icon{
+        width: 60%;
+        justify-content: flex-end;
+    }
+    .sec-1_midpart_img_text{
+        top: 20%;
+        height: fit-content;
+        padding: .5em;
+    }
+    .sec-1_midpart_img_text h2{
+        font-size: 1.5em;
+    }
+    .sec-1_midpart_img_text p{
+        font-size: .8em;
+    }
+
+    .sec-6-clientSays_header{
+        width: 50%;
+    }
+    .sec-6-clientSays_slider_card_wrap{
+        width: 100%;
+    }
+    .sec-6-circle-2{
+        bottom: 40%;
+        left: 5%;
+    }
+    .sec-6-circle{
+        top: -200px;
+        left: -200px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .sec-5-products-menu{
+        width: 80%;
+    }
+    nav{
+        padding: 0 1rem;
+    }
+    .sec-4_content_images{        
+        grid-template-rows: repeat(4,100px);
+        grid-template-areas: 
+        'fisImg secImg'
+        'thirdImg secImg'
+        'thirdImg secImg'
+        'thirdImg forthImg';
+    }
+    .sec-4_img-1{
+        grid-area: fisImg;
+    }
+    .sec-4_img-3{
+        grid-area: thirdImg;        
+    }
+    .sec-4_img-2{
+        grid-area: secImg;       
+    }
+    .sec-4_img-4{
+        grid-area: forthImg;
+    }
+}
+@media only screen and (max-width:716px) {
+    .sec-3_hotdeals_head{
+        min-width: 100%;
+    }
+    .sec-4_content_cards{
+        min-width: 100%;
+        width: 100%;
+    }
+    .sec-4_content_images{
+        width: 100%;
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width:426px) {
+    .sec-4_content_images{        
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: 
+        'fisImg'
+        'secImg'
+        'thirdImg'
+        'forthImg';
+    }
+    .container-fluid{
+        width: 100%!important;
+    }
+    nav{
+        padding: 0 .5rem;
+        gap: 2px;
+    }
+    nav .logo{
+        width: 40%;
+        font-size: 1rem;
+    }
+    nav .menu-icon{
+        width: 80%;
+        gap: 5%;
+    }
+    nav .menu-icon > div i, .menu_ico_svg{
+        font-size: .8rem;
+    }
+    .menu-icon_inp{
+        height: 25px;
+        /* width: 50%; */
+    }
+    .menu-icon_inp_btn i{
+        font-size: 12px!important;
+    }
+
+    .sec-1_midpart_img_text{
+        width: 50%;
+        top: 10%;
+        left: 0;
+    }
+    .sec-6-clientSays_header{
+        width: 100%;
+    }
+    .sec-6-circle{
+        width: 150px;
+        height: 150px;
+        top: -80px;
+        left: -80px;
+        border: 10px solid var(--textColor);
+    }
+    .sec-6-circle::after{
+        width: 80px;
+        height: 80px;
+        border: 10px solid var(--textColor);
+    }
+    
+    .sec-6-circle-2-o{
+        bottom: 60%!important;
+    }
+    .sec-6-circle-2{
+        left: 1%;
+    }
+    .sec-6-clientSays_slider_card_head{
+        width: 50%;
+    }
+    .sec-6-clientSays_slider_card_body{
+        width: 40%;
+        justify-content: space-around;
+        gap: 0;
+    }
+    .sec-6-clientSays_slider_card_body_dec{
+        width: 100%;
+    }
+    .sec-6-clientSays_slider_card_body_dec{
+        line-height: unset;
+    }
+    .sec-5-products-menu{
+        width: 100%;
+    }
+
+    .sec-6-clientSays_slider_card{
+        flex-direction: column;
+        
+    }
+    .sec-6-clientSays_slider_card_head{
+        width: 100%;
+        height: 50%;
+    }
+    .sec-6-clientSays_slider_card_body{
+        width: 100%;
+        height: 50%;
+    }
+    .sec-1_leftpart{
+        position: absolute;
+        top: 0;
+        left: 3%;
+    }
+    .sec-1_midpart{
+        width: 80%;
+    }
+    .sec-1{
+        height: 400px;
+    }
+    .sec-1_down_btn{
+        width: 80px;
+        height: 80px;
+        right: 10%;
+    }
+}

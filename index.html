@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurniShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/svg-with-js.min.css" integrity="sha512-4oP5WpLD1feGamTDxyKyYjJj9a15AlPfKOt78LpGmZ+XfrUcuC7hjHVTuzhJhO4pPvi3RHL6CI2Tyjdoik3AnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleMedia.css">
+    <script defer src="index.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="header">            
+                <a class="logo" href="#">furni.shop</a>
+                <ul id="menuList" class="menu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i id="closemenulist" class="fa-solid fa-xmark fa-fade fa-2xl closelist" style="color: #ffffff;"></i>                 
+                </ul>
+                <div class="menu-icon">
+                    <div class="searchItem">
+                        <div id="searchinp" class="menu-icon_inp">
+                            <input type="text" />                        
+                            <div class="menu-icon_inp_btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div id="serachbtn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div id="searchcrossbtn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                    <div id="menubar">
+                        <svg class="menu_ico_svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </div>
+                </div>            
+        </nav>
+    </header>
+   
+    <section class="sec-1 container-fluid">
+        <div class="sec-1_down_btn">
+            <i class="fa-solid fa-arrow-down-long"></i>
+        </div>
+        <div class="sec-1_leftpart">
+            <div class="sec-1_leftpart_img">
+                <img src="./images/dot-square.png" alt="dot"/>
+            </div>
+        </div>
+        <div class="sec-1_midpart">
+            <div class="sec-1_midpart_imagesWrap">
+                <img src="https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_1280.jpg" alt="furnitue"/>
+                <div class="sec-1_midpart_img_text">
+                    <h2>we help you make modern interior</h2>
+                    <p>we will help you to make a elegant and luxurious interior designed by professional interior designer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec-1_rightpart">
+            <div class="sec-1_rightpart_btn">
+                <i class="fa-solid fa-angle-up"></i>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="sec-1_rightpart_prog">
+                <div>01</div>
+                <div class="line"></div>
+                <div>06</div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-2 container">
+        <h3 class="head">trusted by over 1k+ companies</h3>
+        <div class="sec-2_comp_images">
+            <div class="cpm_logo">
+                <img src="./images/micosoft.png" alt=""/>
+            </div>
+            <div class="cpm_logo">
+                <img src="./images/enterpreneur.png" alt=""/>
+            </div>
+            <div class="cpm_logo">
+                <img src="./images/Fortune.png" alt=""/>
+            </div>
+            <div class="cpm_logo">
+                <img src="./images/business web.png" alt=""/>
+            </div>
+            <div class="cpm_logo">
+                <img src="./images/mashable.png" alt=""/>
+            </div>
+           
+            
+        </div>
+    </section>
+    <section class="sec-3 container-fluid">
+        <div class="sec-3_hotdeals_head">
+            <h1>Hot <i class="fa-solid fa-fire-flame-curved"></i><br>deals for you</h1>
+            <p>Online shopping for retail sales direct to consumers</p>
+        </div>
+        <div class="sec-3_hotdeals_card-wrap">
+            <div class="hotdeal_card">
+                <div class="hotdeal_card_ico">
+                    <i class="fa-solid fa-dice-d20"></i>
+                </div>
+                <h4 class="hotdeal_card_casback">
+                    1.5% cashback
+                </h4>
+                <p class="hotdeal_card_casback">
+                    Online shopping for retail sales direct to consumers
+                </p>
+            </div>
+            <div class="hotdeal_card">
+                <div class="hotdeal_card_ico">
+                    <i class="fa-solid fa-dice-d20"></i>
+                </div>
+                <h4 class="hotdeal_card_casback">
+                    30-day terms
+                </h4>
+                <p class="hotdeal_card_casback">
+                    Online shopping for retail sales direct to consumers
+                </p>
+            </div>
+            <div class="hotdeal_card">
+                <div class="hotdeal_card_ico">
+                    <i class="fa-solid fa-dice-d20"></i>
+                </div>
+                <h4 class="hotdeal_card_casback">
+                    Save Money
+                </h4>
+                <p class="hotdeal_card_casback">
+                    Online shopping for retail sales direct to consumers
+                </p>
+            </div>
+        </div>        
+    </section>
+    <section class="sec-4 about_us container-fluid">
+        <div class="sec-4_heading">
+            <div>
+                <h1>About us</h1>
+                <p>-Lorem ipsum dolor sit amet consectetur, adipisicing elit.-</p>
+            </div>
+            <button>Learn more</button>
+        </div>
+        <div class="sec-4_content">
+            <div class="sec-4_content_cards">
+                <div class="sec-4_content_card">
+                    <div class="sec-4_content_card_no">
+                        1.
+                    </div>
+                    <div class="sec-4_content_card_body">
+                        <div class="sec-4_content_card_title">
+                            who we are
+                        </div>
+                        <div class="sec-4_content_card_des">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-4_content_card">
+                    <div class="sec-4_content_card_no">
+                        2.
+                    </div>
+                    <div class="sec-4_content_card_body">
+
+                        <div class="sec-4_content_card_title">
+                            what do we do
+                        </div>
+                        <div class="sec-4_content_card_des">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-4_content_card">
+                    <div class="sec-4_content_card_no">
+                        3.
+                    </div>
+                    <div class="sec-4_content_card_body">
+                        <div class="sec-4_content_card_title">
+                            how do we help
+                        </div>
+                        <div class="sec-4_content_card_des">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-4_content_card">
+                    <div class="sec-4_content_card_no">
+                        4.
+                    </div>
+                    <div class="sec-4_content_card_body">
+
+                        <div class="sec-4_content_card_title">
+                            create success story
+                        </div>
+                        <div class="sec-4_content_card_des">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-4_content_images">
+                <div class="sec-4_img sec-4_img-1">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376_1280.jpg" alt="fu"/>
+                </div>
+                <div class="sec-4_img sec-4_img-2">
+                    <img src="https://cdn.pixabay.com/photo/2016/04/18/13/53/room-1336497_1280.jpg" alt="fu"/>
+                </div>
+                <div class="sec-4_img sec-4_img-3">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/17/25/furniture-1840463_1280.jpg" alt="fu"/>
+                </div>
+                <div class="sec-4_img sec-4_img-4">
+                    <img src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_1280.jpg" alt="fu"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-5-products container-fluid">
+        <div class="sec-5-products-head">
+            <h1>Products</h1>
+            <div class="sec-5-products-head_seeall">see all <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <ul class="sec-5-products-menu">
+            <li class="active">All</li>
+            <li class="">Bed</li>
+            <li class="">Sofa</li>
+            <li class="">Chair</li>
+            <li class="">Light</li>
+        </ul>
+        <div class="sec-5-products-wrap">
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>Leather Sofa</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/free-vector/chair-realistic-illustration_1284-9507.jpg?w=740&t=st=1692874172~exp=1692874772~hmac=a748f26ba5fad97765e5ee451e201eced4ec1a7e9b097434f5e4342b6d098038" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>King Size Bed</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/free-vector/mattress-bed-realistic_1284-16867.jpg?w=740&t=st=1692878159~exp=1692878759~hmac=85aec824b5401ad13a88fa9b116847b9660163633e83e97e7993b12f7e15b6cb" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>Stylish Chair</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/free-psd/armchair-pillow_176382-862.jpg?w=740&t=st=1692877795~exp=1692878395~hmac=28c951744954b67805b715f4d471455c408ef913d577bc9fe88afe4064539672" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>Stackable Chair</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/free-psd/chair-pillow_176382-882.jpg?w=740&t=st=1692877818~exp=1692878418~hmac=d8e8ff77b4cb0d361f9e888e308838be4378155e11f3be9d53ddbef886b14428" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>Womb Chair</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/premium-photo/photo-modern-luxury-arm-chair-furniture-design_763111-22113.jpg?w=740" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>Vintage Lamp</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/premium-psd/old-lamp-icon-vector_893496-14.jpg?w=740" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>Vintage Chair</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/free-psd/chair-pillow_176382-876.jpg?w=740&t=st=1692877926~exp=1692878526~hmac=376e9ae8950dd08fc949ff09459955f4a374cab31cfd52144379ab77e0609808" alt="fur">
+                </div>
+            </div>
+            <div class="sec-5-products-card">
+                <div class="sec-5-products-card_sale">%</div>
+                <div class="sec-5-products-card_head">
+                    <div>deck Chair</div>
+                    <div><span>$16.00</span> <span>$24.00</span></div>
+                </div>
+                <div class="sec-5-products-card_image">
+                    <img src="https://img.freepik.com/free-psd/chair-pillow_176382-869.jpg?w=740&t=st=1692878045~exp=1692878645~hmac=e92d20b242290017af392b2230387fd12c7564c4f6ac0dff88bf9d767913c602" alt="fur">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-6-clientSays container-fluid">
+        <div class="sec-6-clientSays_decoration">
+            <div class="sec-6-circle"></div>
+            <div class="sec-6-circle-2">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="sec-6-circle-2 sec-6-circle-2-o">
+                <i class="fa-solid fa-gift"></i>
+            </div>
+        </div>
+        <div class="sec-6-clientSays_header">
+            <h1>What our happy <br> client say</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="clientSays_slider_card" class="sec-6-clientSays_slider_card_wrap">
+            <div class="sec-6-clientSays_slider_card">
+                <div class="sec-6-clientSays_slider_card_head">
+                    <div class="sec-6-clientSays_slider_card_head_img">
+                        <img src="https://img.freepik.com/free-photo/handsome-man-presenting-something_1368-87.jpg?w=360&t=st=1692880997~exp=1692881597~hmac=a7c38d92db2dd90cf345ee515aed220795e880af1af33766316caffe8630feb3" alt=""/>
+                    </div>
+                </div>
+                <div class="sec-6-clientSays_slider_card_body">
+                    <div class="sec-6-clientSays_slider_card_body_head">furni.shop</div>
+                    <div class="sec-6-clientSays_slider_card_body_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat, deleniti labore voluptate alias sunt tempora animi.</div>
+                    <div class="sec-6-clientSays_slider_card_body_name">
+                        <div>Larry Diamond</div>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-6-clientSays_slider_card">
+                <div class="sec-6-clientSays_slider_card_head">
+                    <div class="sec-6-clientSays_slider_card_head_img">
+                        <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?w=360&t=st=1692893575~exp=1692894175~hmac=4a41261fc5b20793cbccab12685a3a72a5721504e020b6a0239fad759dfbabb4" alt=""/>
+                    </div>
+                </div>
+                <div class="sec-6-clientSays_slider_card_body">
+                    <div class="sec-6-clientSays_slider_card_body_head">furni.shop</div>
+                    <div class="sec-6-clientSays_slider_card_body_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat, deleniti labore voluptate alias sunt tempora animi.</div>
+                    <div class="sec-6-clientSays_slider_card_body_name">
+                        <div>Rachel Stone</div>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-6-clientSays_slider_card">
+                <div class="sec-6-clientSays_slider_card_head">
+                    <div class="sec-6-clientSays_slider_card_head_img">
+                        <img src="https://img.freepik.com/free-photo/beautiful-young-businesswoman-with-glasses_329181-11678.jpg?w=360&t=st=1692893640~exp=1692894240~hmac=d26e96f2546cb5704582a01aa4a43ea2ff2bde2d6d2ec23cf2700a1f0da0fe17" alt=""/>
+                    </div>
+                </div>
+                <div class="sec-6-clientSays_slider_card_body">
+                    <div class="sec-6-clientSays_slider_card_body_head">furni.shop</div>
+                    <div class="sec-6-clientSays_slider_card_body_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat, deleniti labore voluptate alias sunt tempora animi.</div>
+                    <div class="sec-6-clientSays_slider_card_body_name">
+                        <div>sandy fast</div>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-6-clientSays_slider_card">
+                <div class="sec-6-clientSays_slider_card_head">
+                    <div class="sec-6-clientSays_slider_card_head_img">
+                        <img src="https://img.freepik.com/free-photo/businessman-shows-his-finger-up_329181-9112.jpg?w=360&t=st=1692893718~exp=1692894318~hmac=895663cca962f69dc8f53a684d604599d4412dd23097abf22ff30bd4b244063e" alt=""/>
+                    </div>
+                </div>
+                <div class="sec-6-clientSays_slider_card_body">
+                    <div class="sec-6-clientSays_slider_card_body_head">furni.shop</div>
+                    <div class="sec-6-clientSays_slider_card_body_dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat, deleniti labore voluptate alias sunt tempora animi.</div>
+                    <div class="sec-6-clientSays_slider_card_body_name">
+                        <div>jack herzog</div>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="clientSays_slider_btns" class="sec-6-clientSays_slider_card_btns">
+            <input id="client-0" checked type="radio" name="clientSays_slider"/>
+            <input id="client-1" type="radio" name="clientSays_slider"/>
+            <input id="client-2" type="radio" name="clientSays_slider"/>
+            <input id="client-3" type="radio" name="clientSays_slider"/>
+        </div>
+    </section>
+    <footer>
+        <section class="footer-sec1">
+            <div>
+                <h1>start your business today for</h1>
+                <h1>$0+ state fees.</h1>
+            </div>
+            <div class="footer-sec1_btns">
+                <button>get started</button>
+                <button>contact us</button>
+            </div>
+        </section>
+        <hr>
+        <section class="footer-sec2">
+            <ul class="footer-sec2-part footer-sec2-part_logo">
+                <li><h2>furni.shop</h2></li>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+            </ul>
+            <ul class="footer-sec2-part">
+                <li>Explore</li>
+                <li>blog</li>
+                <li>gift card</li>
+                <li>about us</li>
+                <li>reviews</li>
+                <li>press</li>
+                <li>careers</li>
+            </ul>
+            <ul class="footer-sec2-part">
+                <li>Top searches</li>
+                <li>stockists</li>
+                <li>turban</li>
+                <li>shipping</li>
+                <li>black</li>
+                <li>satin</li>
+                <li>sizing</li>
+                
+            </ul>
+            <ul class="footer-sec2-part">
+                <li>Products</li>
+                <li>Bed</li>
+                <li>Sofa</li>
+                <li>Chair</li>
+                <li>table</li>
+                <li>wardrobe</li>
+                <li>bookcase</li>
+            </ul>
+            <ul class="footer-sec2-part">
+                <li>support</li>
+                <li>contact us</li>
+                <li>FAQs</li>
+                <li>return & exchanges</li>
+                <li>shipping & handling</li>
+                <li>damage of defected items</li>
+                <li>cancelling or changing an order</li>
+                <li>terms of services</li>
+                <li>privacy policy</li>                
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
